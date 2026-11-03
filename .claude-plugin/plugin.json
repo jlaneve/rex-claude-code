@@ -1,7 +1,7 @@
 {
-  "name": "fork-rex",
+  "name": "rex",
   "version": "0.1.0",
-  "description": "/fork-rex forks this session into a new Rex pane without a model turn",
+  "description": "Claude Code commands for the Rex terminal multiplexer, starting with /fork-rex",
   "author": {
     "name": "Julian LaNeve"
   },

@@ -21,13 +21,13 @@ It needs `rex` and `claude` on your PATH.
 At the prompt of a terminal session:
 
 ```
-/plugin install fork-rex --marketplace jlaneve/rex-claude-code
+/plugin install rex --marketplace jlaneve/rex-claude-code
 ```
 
 Answer `y` to add the marketplace, then pick a scope. From a shell:
 
 ```
-claude plugin install fork-rex --marketplace jlaneve/rex-claude-code
+claude plugin install rex --marketplace jlaneve/rex-claude-code
 ```
 
 In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `jlaneve/rex-claude-code`, then Add plugin.

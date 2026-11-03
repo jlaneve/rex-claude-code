@@ -1,5 +1,12 @@
 {
   "name": "rex-claude-code",
-  "owner": { "name": "Julian LaNeve" },
-  "plugins": [{ "name": "fork-rex", "source": "./" }]
+  "owner": {
+    "name": "Julian LaNeve"
+  },
+  "plugins": [
+    {
+      "name": "rex",
+      "source": "./"
+    }
+  ]
 }
