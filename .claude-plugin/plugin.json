@@ -1,0 +1,10 @@
+{
+  "name": "fork-rex",
+  "version": "0.1.0",
+  "description": "/fork-rex forks this session into a new Rex pane without a model turn",
+  "author": {
+    "name": "Julian LaNeve"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jlaneve/rex-claude-code"
+}
