@@ -2,14 +2,14 @@
 
 Claude Code plugins for [Rex](https://www.bitdoze.com/superlogical-rex/), the terminal multiplexer.
 
-## fork-rex
+## rex-fork
 
-`/fork-rex` forks the current Claude Code session into a new Rex pane next to the one you are in. The fork starts with the whole conversation so far, under a new session ID, so you can try a different approach without losing the original. The command runs at once and does not use a model turn.
+`/rex-fork` forks the current Claude Code session into a new Rex pane next to the one you are in. The fork starts with the whole conversation so far, under a new session ID, so you can try a different approach without losing the original. The command runs at once and does not use a model turn.
 
 ```
-/fork-rex            # new pane on the right
-/fork-rex below      # or left, above, below
-/fork-rex --dry-run  # print the rex command and do nothing
+/rex-fork            # new pane on the right
+/rex-fork below      # or left, above, below
+/rex-fork --dry-run  # print the rex command and do nothing
 ```
 
 Outside a Rex pane, the fork opens in a new Rex window.

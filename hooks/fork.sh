@@ -7,7 +7,7 @@ for arg in "$@"; do
   case "$arg" in
     right|left|above|below) direction=$arg ;;
     --dry-run) dry_run=1 ;;
-    *) echo "usage: /fork-rex [right|left|above|below] [--dry-run]" >&2; exit 2 ;;
+    *) echo "usage: /rex-fork [right|left|above|below] [--dry-run]" >&2; exit 2 ;;
   esac
 done
 
