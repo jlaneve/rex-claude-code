@@ -16,6 +16,14 @@ Outside a Rex pane, the fork opens in a new Rex window.
 
 It needs `rex` and `claude` on your PATH.
 
+## Subagent floats
+
+When Claude starts a subagent, a floating Rex pane opens and shows the subagent's work as it happens: its prompt, each tool call, and its replies. The float starts minimized as a capsule. Click the capsule to open the float. Click the pane behind it to go back.
+
+Five seconds after the subagent finishes, the float closes. To change that delay, set `REX_SUBAGENT_LINGER` to a number of seconds. To open floats at full size in place of a capsule, set `REX_SUBAGENT_MINIMIZE=0`.
+
+Floats open only when Claude runs inside a Rex pane. They need `jq` on your PATH and Rex app build 1996 or later. To let the plugin minimize floats, turn on Remote Control in the Rex app's Settings under Rex Server. If Remote Control is off, floats open at full size.
+
 ## Install
 
 At the prompt of a terminal session:

@@ -1,7 +1,7 @@
 {
   "name": "rex",
-  "version": "0.1.0",
-  "description": "Claude Code commands for the Rex terminal multiplexer, starting with /rex-fork",
+  "version": "0.2.0",
+  "description": "Claude Code commands for the Rex terminal multiplexer, such as /rex-fork and a floating pane for each subagent",
   "author": {
     "name": "Julian LaNeve"
   },
