@@ -22,7 +22,7 @@ When Claude starts a subagent, a floating Rex pane opens and shows the subagent'
 
 Five seconds after the subagent finishes, the float closes. To change that delay, set `REX_SUBAGENT_LINGER` to a number of seconds. To open floats at full size in place of a capsule, set `REX_SUBAGENT_MINIMIZE=0`.
 
-Floats open only when Claude runs inside a Rex pane. They need `jq` on your PATH and Rex app build 1996 or later. To let the plugin minimize floats, turn on Remote Control in the Rex app's Settings under Rex Server. If Remote Control is off, floats open at full size.
+Floats open only when Claude runs inside a Rex pane. They need `jq` on your PATH and Rex app build 1996 or later.
 
 ## Install
 
